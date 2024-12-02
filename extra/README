@@ -1,0 +1,5 @@
+### For ILI9341 TFT 2.8 ### 
+Edit file in library TFT_eSPI by copy file  User_Setup.h from extra folder than replace to TFT_eSPI folder in lib folder
+
+### สำหรับจอ ILI9341 TFT 2.8 ###
+แก้ไขโดยทำการแก้ไขไลบรารี่ TFT_eSPI โดยคัดลองไฟล์ User_Setup.h ที่อยุ่ในโฟเดอร์ extra จากนั้นวางทับไปในห้องโฟเดอร์ TFT_eSPI ที่อยุ่่ในห้อง  lib
