@@ -60,3 +60,21 @@ Please clone to lib
 2. git clone https://github.com/Bodmer/TFT_eSPI.git
 3. git clone https://github.com/PaulStoffregen/XPT2046_Touchscreen.git  //** this library is option , need to connect touch pin to esp32 **
 4. git clone https://github.com/lvgl/lvgl.git 
+5. git clone https://github.com/bitbank2/PNGdec.git
+
+/*****************************************************************/
+### For ILI9341 TFT 2.8 ### 
+Edit file in library TFT_eSPI by copy file  User_Setup.h from extra folder than replace to TFT_eSPI folder in lib folder
+
+### สำหรับจอ ILI9341 TFT 2.8 ###
+แก้ไขโดยทำการแก้ไขไลบรารี่ TFT_eSPI โดยคัดลองไฟล์ User_Setup.h ที่อยุ่ในโฟเดอร์ extra จากนั้นวางทับไปในห้องโฟเดอร์ TFT_eSPI ที่อยุ่่ในห้อง  lib
+
+// Image files can be converted to arrays using the tool here:
+// https://notisrac.github.io/FileToCArray/
+// To use this tool:
+//   1. Drag and drop file on "Browse..." button
+//   2. Tick box "Treat as binary"
+//   3. Click "Convert"
+//   4. Click "Save as file" and move the header file to sketch folder
+//   5. Open the sketch in IDE
+//   6. Include the header file containing the array (panda.h in this example)
